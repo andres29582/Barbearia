@@ -289,10 +289,15 @@ td {
     text-align: center;
 }
 
-.personal-1 img{
+.personal-1 img {
     width: 250px;
     border-radius: 15px;
     margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+.personal-1 img:hover {
+    transform: scale(1.1);
 }
 
 .personal-1 h3{
@@ -347,6 +352,8 @@ textarea{
     padding: 10px;
     background-color: #070707;
 }
+
+
 @media(max-width:991px){
     .menu{
         padding: 20px;
